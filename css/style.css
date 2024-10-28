@@ -48,17 +48,16 @@ h3 {
 }
 
 .dialogue {
-    display:flex;
+    display: none;
     background-color : #000000;
     color: #c4c4c4;
     box-sizing: border-box;
     width : 500px;
     height: 300px;
     padding : 10px;
-    font-size : 40px;
+    font-size : 20px;
     margin: 50px;
     cursor: pointer;
     justify-content : center;
     align-items : center;
-    display :none;
 }
