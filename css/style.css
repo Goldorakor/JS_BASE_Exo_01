@@ -1,0 +1,64 @@
+* { 
+    margin: 0;  /* marge externe : raccourci m0 */
+    padding: 0;  /* marge interne : raccourci p0 */
+    box-sizing: border-box;  /* éléments seront traités avec les bordures qu'on leur applique */
+}
+
+#conteneur {
+    display : flex;
+    flex-wrap : wrap;
+    flex-direction : column;
+    justify-content : left;
+    align-items : center;
+    width: 100vw;
+    margin: 30px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+
+h3 {
+    margin: 20px;
+}
+
+#resultat {
+    display : flex;
+    flex-wrap : wrap;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+    gap : 20px;
+}
+
+.carre {
+    display:flex;
+    background-color : #4b8955;
+    color: #ffffff;
+    box-sizing: border-box;
+    width : 200px;
+    height: 200px;
+    padding : 10px;
+    font-size : 40px;
+    margin: 50px;
+    cursor: pointer;
+    justify-content : center;
+    align-items : center;
+}
+
+.dialogue {
+    display:flex;
+    background-color : #000000;
+    color: #c4c4c4;
+    box-sizing: border-box;
+    width : 500px;
+    height: 300px;
+    padding : 10px;
+    font-size : 40px;
+    margin: 50px;
+    cursor: pointer;
+    justify-content : center;
+    align-items : center;
+    display :none;
+}
